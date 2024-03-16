@@ -2,7 +2,7 @@
 
 ## 介绍
 
-关于科大讯飞星火模型 Python调用，科大讯飞官网仅给出了Web API文档。 本项目是对官方Web API封装，便于用户调用。
+关于科大讯飞星火大模型，官网仅给出了[Web API文档](https://www.xfyun.cn/doc/spark/Web.html)，没有提供Python版SDK，使用起来不方便，尤其是在Stream交互的场景中。本项目封装了星火大模型的Web API，提供了类似OpenAI格式的SDK。
 
 ## 安装
 
