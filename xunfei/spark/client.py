@@ -15,7 +15,7 @@ from wsgiref.handlers import format_date_time
 
 import websocket
 
-from xunfei.spark._response import ChatResponse
+from xunfei.spark.response import ChatResponse
 
 
 class Spark():

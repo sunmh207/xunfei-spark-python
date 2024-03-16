@@ -7,7 +7,7 @@
 ## 安装
 
 ```
-pip install xunfei-spark-python==0.0.1
+pip install xunfei-spark-python==0.0.5
 ```
 
 ## 使用
@@ -15,8 +15,8 @@ pip install xunfei-spark-python==0.0.1
 ### 问答接口
 
 ```python
-from xunfei.spark._client import Spark
-from xunfei.spark._response import ChatResponse
+from xunfei.spark.client import Spark
+from xunfei.spark.response import ChatResponse
 
 if __name__ == '__main__':
     config = {

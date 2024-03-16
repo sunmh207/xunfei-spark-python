@@ -1,6 +1,6 @@
 # sdk调用示例
-from xunfei.spark._client import Spark
-from xunfei.spark._response import ChatResponse
+from xunfei.spark.client import Spark
+from xunfei.spark.response import ChatResponse
 
 if __name__ == '__main__':
     config = {
