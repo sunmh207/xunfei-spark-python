@@ -12,7 +12,7 @@ pip install xunfei-spark-python==0.0.5
 
 ## 使用
 
-### 问答接口
+### 1.问答接口
 
 ```python
 from xunfei.spark.client import Spark
@@ -29,16 +29,15 @@ if __name__ == '__main__':
     spark = Spark(**config)
     messages = [{"role": "user", "content": "你是谁开发的？"}]
 
-    # 非stream模式调用示例
     response: ChatResponse = spark.chat(messages=messages)
     print('AI:', response.content)
     print('Token使用量:', response.usage)
+```
 
-### Stream模式问答接口
+### 2.Stream模式问答接口
     
 ```python
-from xunfei.spark._client import Spark
-from xunfei.spark._response import ChatResponse
+from xunfei.spark.client import Spark
 
 if __name__ == '__main__':
     config = {
@@ -58,3 +57,4 @@ if __name__ == '__main__':
             elif 'type' in message and message['type'] == 'stop':
                 print(f"结束")
                 break
+```
