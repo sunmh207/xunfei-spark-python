@@ -7,7 +7,7 @@
 ## 安装
 
 ```
-pip install xunfei-spark
+pip install xunfei-spark-python==0.0.1
 ```
 
 ## 使用
